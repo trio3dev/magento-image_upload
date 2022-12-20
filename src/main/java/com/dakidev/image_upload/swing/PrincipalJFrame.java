@@ -1,11 +1,10 @@
-package com.dakidev.magento_image_upload.swing;/*
+package com.dakidev.image_upload.swing;/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
 
-import com.dakidev.magento_image_upload.swing_worker.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -180,7 +179,7 @@ public class PrincipalJFrame extends javax.swing.JFrame {
             return;
         }
         
-        new ImagesUploaderWorker(jProgressBar1, 100, selectedMagentoFileLabel.getText(), selectedImagesFolderLabel.getText(), consoleTextArea).execute();
+//        new ImagesUploaderWorker(jProgressBar1, 100, selectedMagentoFileLabel.getText(), selectedImagesFolderLabel.getText(), consoleTextArea).execute();
     }
     
     private void chooseMagentoButtonActionPerformed(java.awt.event.ActionEvent evt) {

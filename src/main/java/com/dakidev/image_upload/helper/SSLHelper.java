@@ -1,4 +1,4 @@
-package com.dakidev.magento_image_upload.helper;
+package com.dakidev.image_upload.helper;
 
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
